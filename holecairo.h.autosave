@@ -1,0 +1,20 @@
+#ifndef HOLECAIRO_H
+#define HOLECAIRO_H
+
+
+class HoleCairo
+{
+public:
+    HoleCairo();
+    HoleCairo(double xArr, double yArr, double radius);
+    
+    double getX();
+    double getY();
+    double getRadius();
+private:
+  double xCord;
+  double yCord;
+  double radius;
+};
+
+#endif // HOLECAIRO_H
